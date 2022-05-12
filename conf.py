@@ -68,19 +68,12 @@ html_static_path = ["_static"]
 html_extra_path = ["_static/img"]
 html_theme_options.update(
     {
-        "navbar_pagenav": False,
-        "globaltoc_depth": 1,
         "on_rtd": False,
-        "copyright_html": """
-<a style= "padding-left: 10px;" rel="licence" href="https://creativecommons.org/licenses/by/4.0/">
-<img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
-</a>
-""",
     }
 )
 
 html_sidebars = {
-    "index": None,
+    "index": [],
     "about": ["localtoc.html"],
     "coc": None,
     "contribute": None,
